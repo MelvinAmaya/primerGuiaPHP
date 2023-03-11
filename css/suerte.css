@@ -1,0 +1,47 @@
+/* Estilos para el encabezado <h1> */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* Estilos para el botón dentro del formulario */
+  form input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el div cuando el usuario va ganando */
+  .ganando {
+    text-align: center;
+    background-color: #8BC34A;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el div cuando el usuario va perdiendo */
+  .perdiendo {
+    text-align: center;
+    background-color: #F44336;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .informacion {
+    background-color: #F5F5F5;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+  }
